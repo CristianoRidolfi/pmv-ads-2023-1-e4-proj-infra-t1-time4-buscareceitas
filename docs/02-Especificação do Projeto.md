@@ -73,14 +73,39 @@ Obs.: todas as informações para gerar os indicadores devem estar no diagrama d
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade de requisitos, aplicar uma técnica de priorização de requisitos e detalhar como a técnica foi aplicada.
+As tabelas que a seguir apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+| ID    | Descrição do Requisito | PRIORIDADE |  
+|---|---|---|
+| RF-01 | O sistema deve permitir que um usuário cadastrado faça login.| ALTA |
+| RF-02 | O sistema deve permitir a inserção, alteração e exclusão dos seus dados cadastrados. | ALTA |  
+| RF-03 | O sistema deve permitir o cadastro e a alteração das receitas. | ALTA  |
+| RF-04 | O sistema deve permitir a pesquisa de receitas cadastrados. | ALTA | 
+| RF-05 | O sistema deve permitir que os usuários cadastrem suas receitas. | ALTA |  
+
+### Requisitos não Funcionais
+
+| ID  | Descrição do Requisito | PRIORIDADE | 
+|---|---|---|
+| RNF-01 | O sistema deve ser implementado utilizando as tecnologias C#, JavaScript, HTML e CSS. | ALTA |
+| RNF-02 | A persistência dos dados será feita no banco MySQL. | ALTA | 
+| RNF-03 | O sistema deve ser responsivo para rodar no navegador de um dispositivos móvel. | ALTA | 
+| RNF-04 | O projeto de software será feito utilizando o padrão arquitetutal MVC (Model-View-Controller). | ALTA | 
+
+
+## Restrições
+
+O projeto está restrito pelos itens apresentados na tabela a seguir.
+
+|ID| Restrição                                             |
+|--|-------------------------------------------------------|
+| RE-01 | O projeto deverá ser entregue até o final do semestre|
+| RE-02 | O escopo do projeto será restrito à uma aplicação web, portanto, não será contemplada uma solução mobile|
+
+
+|
 
 ### Requisitos não Funcionais
 
@@ -104,16 +129,6 @@ Lembre-se que cada requisito deve corresponder à uma e somente uma
 característica alvo da sua solução. Além disso, certifique-se de que
 todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
-## Restrições
-
-O projeto está restrito pelos itens apresentados na tabela a seguir.
-
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
 > **Links Úteis**:
 > - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
